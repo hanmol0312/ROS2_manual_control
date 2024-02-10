@@ -1,0 +1,64 @@
+[0.058s] Invoking command in '/home/anmol/ws_offboard_control/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anmol/ws_offboard_control/install/manual_key_control:/opt/ros/humble /usr/bin/cmake /home/anmol/ws_offboard_control/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/anmol/ws_offboard_control/install/action_tutorials_interfaces
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.249s] -- The CXX compiler identification is GNU 11.4.0
+[0.260s] -- Detecting C compiler ABI info
+[0.347s] -- Detecting C compiler ABI info - done
+[0.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.354s] -- Detecting C compile features - done
+[0.357s] -- Detecting CXX compiler ABI info
+[0.446s] -- Detecting CXX compiler ABI info - done
+[0.453s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.453s] -- Detecting CXX compile features
+[0.453s] -- Detecting CXX compile features - done
+[0.463s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.634s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.736s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.812s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.828s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.113s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.113s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[1.113s]   action_tutorials_interfaces --arguments-file
+[1.113s]   /home/anmol/ws_offboard_control/build/action_tutorials_interfaces/rosidl_adapter__arguments__action_tutorials_interfaces.json
+[1.113s]   --output-dir
+[1.113s]   /home/anmol/ws_offboard_control/build/action_tutorials_interfaces/rosidl_adapter/action_tutorials_interfaces
+[1.113s]   --output-file
+[1.113s]   /home/anmol/ws_offboard_control/build/action_tutorials_interfaces/rosidl_adapter/action_tutorials_interfaces.idls)
+[1.113s]   returned error code 1:
+[1.113s] 
+[1.113s]   Traceback (most recent call last):
+[1.114s] 
+[1.114s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.114s]       return _run_code(code, main_globals, None,
+[1.114s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.114s]       exec(code, run_globals)
+[1.114s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.114s]       sys.exit(main())
+[1.114s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.114s]       abs_idl_file = convert_to_idl(
+[1.114s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[1.114s]       return convert_action_to_idl(
+[1.114s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[1.114s]       action = parse_action_string(package_name, input_file.stem, content)
+[1.114s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 902, in parse_action_string
+[1.114s]       goal_message = parse_message_string(
+[1.115s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[1.115s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[1.115s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[1.115s]       self.base_type = BaseType(
+[1.115s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[1.115s]       raise InvalidResourceName(
+[1.115s] 
+[1.115s]   rosidl_adapter.parser.InvalidResourceName: 'Vehicle_cmd_Goal' is an invalid
+[1.115s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.115s] 
+[1.115s] Call Stack (most recent call first):
+[1.115s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.115s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[1.115s] 
+[1.115s] [0m
+[1.116s] -- Configuring incomplete, errors occurred!
+[1.116s] See also "/home/anmol/ws_offboard_control/build/action_tutorials_interfaces/CMakeFiles/CMakeOutput.log".
+[1.120s] Invoked command in '/home/anmol/ws_offboard_control/build/action_tutorials_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anmol/ws_offboard_control/install/manual_key_control:/opt/ros/humble /usr/bin/cmake /home/anmol/ws_offboard_control/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/anmol/ws_offboard_control/install/action_tutorials_interfaces

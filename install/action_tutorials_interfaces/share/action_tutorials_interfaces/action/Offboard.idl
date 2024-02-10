@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_tutorials_interfaces/action/Offboard.action
+// generated code does not contain a copyright notice
+
+
+module action_tutorials_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Off-board control mode")
+    struct Offboard_Goal {
+      @verbatim (language="comment", text=
+        "time since system start (microseconds)")
+      uint64 timestamp;
+
+      boolean position;
+
+      boolean velocity;
+
+      boolean acceleration;
+
+      boolean attitude;
+
+      boolean body_rate;
+
+      boolean thrust_and_torque;
+
+      boolean direct_actuator;
+    };
+    struct Offboard_Result {
+      uint8 nav_state;
+    };
+    struct Offboard_Feedback {
+      uint8 nav_state_present;
+    };
+  };
+};

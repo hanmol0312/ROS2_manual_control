@@ -1,0 +1,27 @@
+[0.904s] Invoking command in '/home/anmol/ws_offboard_control/src/manual_key_control': PYTHONPATH=/home/anmol/ws_offboard_control/build/manual_key_control/prefix_override:/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manual_key_control build --build-base /home/anmol/ws_offboard_control/build/manual_key_control/build install --record /home/anmol/ws_offboard_control/build/manual_key_control/install.log --single-version-externally-managed
+[1.189s] running egg_info
+[1.189s] writing ../../build/manual_key_control/manual_key_control.egg-info/PKG-INFO
+[1.190s] writing dependency_links to ../../build/manual_key_control/manual_key_control.egg-info/dependency_links.txt
+[1.190s] writing entry points to ../../build/manual_key_control/manual_key_control.egg-info/entry_points.txt
+[1.190s] writing requirements to ../../build/manual_key_control/manual_key_control.egg-info/requires.txt
+[1.190s] writing top-level names to ../../build/manual_key_control/manual_key_control.egg-info/top_level.txt
+[1.192s] reading manifest file '../../build/manual_key_control/manual_key_control.egg-info/SOURCES.txt'
+[1.193s] writing manifest file '../../build/manual_key_control/manual_key_control.egg-info/SOURCES.txt'
+[1.194s] running build
+[1.194s] running build_py
+[1.194s] copying manual_key_control/key_pub.py -> /home/anmol/ws_offboard_control/build/manual_key_control/build/lib/manual_key_control
+[1.194s] running install
+[1.194s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.194s]   warnings.warn(
+[1.195s] running install_lib
+[1.195s] copying /home/anmol/ws_offboard_control/build/manual_key_control/build/lib/manual_key_control/key_pub.py -> /home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages/manual_key_control
+[1.196s] byte-compiling /home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages/manual_key_control/key_pub.py to key_pub.cpython-310.pyc
+[1.198s] running install_data
+[1.199s] running install_egg_info
+[1.201s] removing '/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages/manual_key_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.201s] Copying ../../build/manual_key_control/manual_key_control.egg-info to /home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages/manual_key_control-0.0.0-py3.10.egg-info
+[1.202s] running install_scripts
+[1.227s] Installing arm script to /home/anmol/ws_offboard_control/install/manual_key_control/lib/manual_key_control
+[1.228s] Installing key_pub script to /home/anmol/ws_offboard_control/install/manual_key_control/lib/manual_key_control
+[1.228s] writing list of installed files to '/home/anmol/ws_offboard_control/build/manual_key_control/install.log'
+[1.262s] Invoked command in '/home/anmol/ws_offboard_control/src/manual_key_control' returned '0': PYTHONPATH=/home/anmol/ws_offboard_control/build/manual_key_control/prefix_override:/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manual_key_control build --build-base /home/anmol/ws_offboard_control/build/manual_key_control/build install --record /home/anmol/ws_offboard_control/build/manual_key_control/install.log --single-version-externally-managed

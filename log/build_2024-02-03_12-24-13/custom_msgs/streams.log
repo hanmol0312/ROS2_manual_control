@@ -1,0 +1,49 @@
+[0.090s] Invoking command in '/home/anmol/ws_offboard_control/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anmol/ws_offboard_control/install/manual_key_control:/opt/ros/humble /usr/bin/cmake /home/anmol/ws_offboard_control/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/anmol/ws_offboard_control/install/custom_msgs
+[0.108s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.335s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.336s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.340s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.819s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.819s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.820s]   custom_msgs --arguments-file
+[0.820s]   /home/anmol/ws_offboard_control/build/custom_msgs/rosidl_adapter__arguments__custom_msgs.json
+[0.820s]   --output-dir
+[0.820s]   /home/anmol/ws_offboard_control/build/custom_msgs/rosidl_adapter/custom_msgs
+[0.820s]   --output-file
+[0.820s]   /home/anmol/ws_offboard_control/build/custom_msgs/rosidl_adapter/custom_msgs.idls)
+[0.821s]   returned error code 1:
+[0.821s] 
+[0.821s]   Traceback (most recent call last):
+[0.821s] 
+[0.821s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.821s]       return _run_code(code, main_globals, None,
+[0.821s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.821s]       exec(code, run_globals)
+[0.821s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.821s]       sys.exit(main())
+[0.821s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.821s]       abs_idl_file = convert_to_idl(
+[0.821s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.822s]       return convert_msg_to_idl(
+[0.822s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.822s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.822s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.822s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.822s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.822s]       self.base_type = BaseType(
+[0.822s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.822s]       raise InvalidResourceName(
+[0.822s] 
+[0.822s]   rosidl_adapter.parser.InvalidResourceName: 'key' is an invalid message
+[0.822s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.822s] 
+[0.823s] Call Stack (most recent call first):
+[0.823s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.823s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.823s] 
+[0.823s] [0m
+[0.823s] -- Configuring incomplete, errors occurred!
+[0.823s] See also "/home/anmol/ws_offboard_control/build/custom_msgs/CMakeFiles/CMakeOutput.log".
+[0.830s] Invoked command in '/home/anmol/ws_offboard_control/build/custom_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anmol/ws_offboard_control/install/manual_key_control:/opt/ros/humble /usr/bin/cmake /home/anmol/ws_offboard_control/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/anmol/ws_offboard_control/install/custom_msgs

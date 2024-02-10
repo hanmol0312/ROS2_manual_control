@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/manual_key_control/manual_key_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/manual_key_control/manual_key_control.egg-info/dependency_links.txt
+writing entry points to ../../build/manual_key_control/manual_key_control.egg-info/entry_points.txt
+writing requirements to ../../build/manual_key_control/manual_key_control.egg-info/requires.txt
+writing top-level names to ../../build/manual_key_control/manual_key_control.egg-info/top_level.txt
+reading manifest file '../../build/manual_key_control/manual_key_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/manual_key_control/manual_key_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying manual_key_control/key_pub.py -> /home/anmol/ws_offboard_control/build/manual_key_control/build/lib/manual_key_control
+copying manual_key_control/key_sub.py -> /home/anmol/ws_offboard_control/build/manual_key_control/build/lib/manual_key_control
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/anmol/ws_offboard_control/build/manual_key_control/build/lib/manual_key_control/key_pub.py -> /home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages/manual_key_control
+copying /home/anmol/ws_offboard_control/build/manual_key_control/build/lib/manual_key_control/key_sub.py -> /home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages/manual_key_control
+byte-compiling /home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages/manual_key_control/key_pub.py to key_pub.cpython-310.pyc
+byte-compiling /home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages/manual_key_control/key_sub.py to key_sub.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages/manual_key_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/manual_key_control/manual_key_control.egg-info to /home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages/manual_key_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arm script to /home/anmol/ws_offboard_control/install/manual_key_control/lib/manual_key_control
+Installing key_pub script to /home/anmol/ws_offboard_control/install/manual_key_control/lib/manual_key_control
+writing list of installed files to '/home/anmol/ws_offboard_control/build/manual_key_control/install.log'

@@ -1,0 +1,6 @@
+[console_scripts]
+draw_square = manual_key_control.draw_Square:main
+key_pub = manual_key_control.key_pub:main
+key_server = manual_key_control.key_server:main
+key_trigger = manual_key_control.key_trigger:main
+

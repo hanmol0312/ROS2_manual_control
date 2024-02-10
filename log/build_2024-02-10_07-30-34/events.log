@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000424] (-) JobUnselected: {'identifier': 'action_commands'}
+[0.000474] (-) JobUnselected: {'identifier': 'manual_key_control'}
+[0.000496] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000517] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000540] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000561] (-) EventReactorShutdown: {}

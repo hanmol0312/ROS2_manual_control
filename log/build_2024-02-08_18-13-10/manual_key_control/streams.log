@@ -1,0 +1,26 @@
+[0.666s] Invoking command in '/home/anmol/ws_offboard_control/src/manual_key_control': CMAKE_PREFIX_PATH=/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces LD_LIBRARY_PATH=/home/anmol/ws_offboard_control/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/action_commands/lib:/home/anmol/ws_offboard_control/install/px4_ros_com/lib:/home/anmol/ws_offboard_control/install/px4_msgs/lib:/home/anmol/ws_offboard_control/install/custom_msgs/lib:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/anmol/ws_offboard_control/build/manual_key_control/prefix_override:/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manual_key_control build --build-base /home/anmol/ws_offboard_control/build/manual_key_control/build install --record /home/anmol/ws_offboard_control/build/manual_key_control/install.log --single-version-externally-managed
+[0.873s] running egg_info
+[0.873s] writing ../../build/manual_key_control/manual_key_control.egg-info/PKG-INFO
+[0.874s] writing dependency_links to ../../build/manual_key_control/manual_key_control.egg-info/dependency_links.txt
+[0.874s] writing entry points to ../../build/manual_key_control/manual_key_control.egg-info/entry_points.txt
+[0.874s] writing requirements to ../../build/manual_key_control/manual_key_control.egg-info/requires.txt
+[0.874s] writing top-level names to ../../build/manual_key_control/manual_key_control.egg-info/top_level.txt
+[0.875s] reading manifest file '../../build/manual_key_control/manual_key_control.egg-info/SOURCES.txt'
+[0.876s] writing manifest file '../../build/manual_key_control/manual_key_control.egg-info/SOURCES.txt'
+[0.876s] running build
+[0.876s] running build_py
+[0.877s] running install
+[0.877s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.877s]   warnings.warn(
+[0.877s] running install_lib
+[0.878s] running install_data
+[0.879s] running install_egg_info
+[0.881s] removing '/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages/manual_key_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.881s] Copying ../../build/manual_key_control/manual_key_control.egg-info to /home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages/manual_key_control-0.0.0-py3.10.egg-info
+[0.882s] running install_scripts
+[0.900s] Installing draw_square script to /home/anmol/ws_offboard_control/install/manual_key_control/lib/manual_key_control
+[0.901s] Installing key_pub script to /home/anmol/ws_offboard_control/install/manual_key_control/lib/manual_key_control
+[0.901s] Installing key_server script to /home/anmol/ws_offboard_control/install/manual_key_control/lib/manual_key_control
+[0.901s] Installing key_trigger script to /home/anmol/ws_offboard_control/install/manual_key_control/lib/manual_key_control
+[0.901s] writing list of installed files to '/home/anmol/ws_offboard_control/build/manual_key_control/install.log'
+[0.932s] Invoked command in '/home/anmol/ws_offboard_control/src/manual_key_control' returned '0': CMAKE_PREFIX_PATH=/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces LD_LIBRARY_PATH=/home/anmol/ws_offboard_control/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/action_commands/lib:/home/anmol/ws_offboard_control/install/px4_ros_com/lib:/home/anmol/ws_offboard_control/install/px4_msgs/lib:/home/anmol/ws_offboard_control/install/custom_msgs/lib:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/anmol/ws_offboard_control/build/manual_key_control/prefix_override:/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manual_key_control build --build-base /home/anmol/ws_offboard_control/build/manual_key_control/build install --record /home/anmol/ws_offboard_control/build/manual_key_control/install.log --single-version-externally-managed

@@ -1,0 +1,6 @@
+{
+  "package_name": "action_tutorials_interfaces",
+  "non_idl_tuples": [
+    "/home/anmol/ws_offboard_control/src/action_tutorials_interfaces:action/Command.action"
+  ]
+}
